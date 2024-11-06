@@ -1,8 +1,52 @@
-# React + Vite
+# Weather Forecast App - ForecastNow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A simple and responsive weather forecasting app that provides real-time weather data, 7-day forecasts, and city-based weather tracking. Users can search for weather information by city or use their geolocation to get personalized weather updates. Built using React and OpenWeather API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Displays the current weather and 7-day forecast for a selected city.
+- Users can choose a city from a dropdown or allow the app to - use their geolocation.
+- Interactive and responsive user interface.
+- Real-time data fetched from the OpenWeather API.
+
+## Technologies Used
+
+- React: JavaScript library for building the user interface.
+- OpenWeather API: Provides weather data.
+- Axios: Used for making HTTP requests.
+- CSS: Styling the app to ensure a responsive design.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-forecast-app.git
+cd weather-forecast-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Create a .env file in the root directory of the project and add your OpenWeather API key:
+
+```bash
+VITE_OPENWEATHER_API_KEY=your-api-key
+```
+
+4. Run the app locally:
+
+```bash
+npm run dev
+```
+
+## Usage
+
+- Upon loading the app, the weather for the default city (Istanbul) will be displayed.
+- Users can select a city from the dropdown or allow the app to use their geolocation to display weather data.
+- The 7-day forecast will show high and low temperatures, weather descriptions, and icons for each day.
