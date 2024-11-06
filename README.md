@@ -7,7 +7,7 @@ A simple and responsive weather forecasting app that provides real-time weather 
 ## Live Demo
 
 You can view the live version of the app here:
-- [Live Forecast Now App on Vercel]((https://forecast-now-two.vercel.app/)): Check out the live weather forecast application.
+- [Live Forecast Now App on Vercel](https://forecast-now-two.vercel.app/): Check out the live weather forecast application.
 
 ## Features
 
