@@ -19,7 +19,7 @@ function WeatherDisplay() {
 
     return (
         <div className="weather-display">
-            <h2 className="weather-title">Weather Forecast for {city}</h2>
+            <h2 className="weather-title">Weather Forecast for <span>{city}</span></h2>
 
             <DropDown onSelect={handleCitySelect} />
 
