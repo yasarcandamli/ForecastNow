@@ -4,6 +4,11 @@
 
 A simple and responsive weather forecasting app that provides real-time weather data, 7-day forecasts, and city-based weather tracking. Users can search for weather information by city or use their geolocation to get personalized weather updates. Built using React and OpenWeather API.
 
+## Live Demo
+
+You can view the live version of the app here:
+- [Live Forecast Now App on Vercel](https://forecast-now.vercel.app): Check out the live weather forecast application.
+
 ## Features
 
 - Displays the current weather and 7-day forecast for a selected city.
